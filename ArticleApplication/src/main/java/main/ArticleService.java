@@ -38,4 +38,8 @@ public class ArticleService {
             }
         }
     }
+
+    public void deleteArticle(String id) {
+        articleList.removeIf(t->t.getId().equals(id));
+    }
 }

@@ -38,4 +38,13 @@ public class ArticleController {
 
     }
 
+
+    @RequestMapping(method = RequestMethod.DELETE, value = "/articles/{id}")
+    public void deleteArticle(@PathVariable String id) {
+        articleService.deleteArticle(id);
+
+
+    }
+
+
 }
