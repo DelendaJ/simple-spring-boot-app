@@ -11,7 +11,7 @@ import java.util.List;
 public class ArticleService {
     List<Article> articleList = new ArrayList<Article>(Arrays.asList(
             new Article("1", "Article 01", "This is Description 01"),
-            new Article("2", "Article 02", "This is Description 02"),
+            new Article("2", "Article 02", "This is Description 20"),
             new Article("3", "Article 03", "This is Description 03"),
             new Article("4", "Article 04", "This is Description 04"),
             new Article("5", "Article 05", "This is Description 05")
